@@ -1,0 +1,2 @@
+# docker-laravel-starter
+Dockerの学び直し＆今後ずっと使えるLaravel開発環境のイメージ保持＆完成アプリのAWSやCloudRun等へのデプロイ
