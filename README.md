@@ -3,6 +3,7 @@
 （基本的に自分用備忘録）
 このリポジトリは、PHP、Laravel、MySQL環境をDockerを使用して簡単にセットアップするためのテンプレです。
 以下の手順に従って、すぐにLaravelアプリケーション（開発環境）を動かすことができるようにします。
+※手軽なスターターキットとしてLaravel Sailがあるが、学習目的で敢えて車輪の再開発を行うのが趣旨
 
 ## 前提条件
 - Dockerインストール済み
@@ -31,7 +32,7 @@
     docker-compose exec app composer install
     ```
 
-5. アプリケーションキーを生成（Laravelアプリのセキュリティ上で重要）
+5. アプリケーションキーを生成（Laravelアプリのセキュリティ上重要）
     ```bash
     docker-compose exec app php artisan key:generate
     ```
@@ -40,7 +41,7 @@
     ```bash
     docker-compose exec app php artisan migrate
     ```
-(7.) データベースのレコードまで再現する場合（シーディング）
+7. データベースのレコード（またはダミーデータ群）も再現する場合（シーディング）
     ```bash
     docker-compose exec app php artisan db:seed
     ```
