@@ -17,7 +17,7 @@
 - Laravel Sailを使えば早いが、敢えて車輪の再開発で理解と応用力を深める
   - Laravel Sailも動作確認済み（事前のファイルシェアリングとポートの競合に注意）
 
-2018年に購入した [Udemy教材](https://www.udemy.com/share/1026SG3@T3dICekDwtHbptE_TVrvXSQaJovioib1GIRo6Ig2nSCgBDQWWTzLJZyHwtI7__OK/) が消化率40%（約6.5時間）のままだが、そちらは今回敢えて使わない。
+2018年に購入した [Udemy教材](https://www.udemy.com/share/1026SG3@T3dICekDwtHbptE_TVrvXSQaJovioib1GIRo6Ig2nSCgBDQWWTzLJZyHwtI7__OK/) が消化率40%（約6.5時間）のまま~~だが、そちらは今回敢えて使わない。~~ だったが、今回これを消化する。(100%かどうかは未定）
 
 
 ### 重要用語
