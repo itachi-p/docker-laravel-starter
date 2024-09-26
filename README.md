@@ -17,17 +17,17 @@
     cd laravel-docker-starter
     ```
 
-2. 環境変数ファイルをコピー
+2. 環境変数ファイルを（ローカルに）コピー
     ```bash
     cp .env.example .env
     ```
 
-3. Dockerコンテナをビルドして起動
+3. Dockerコンテナをビルドして起動　（-dオプションによりバックグラウンドで実行）
     ```bash
     docker-compose up -d --build
     ```
 
-4. **コンテナ内で**Laravelの依存関係をインストール
+4. **コンテナ内で**Laravelの依存関係をインストール （execコマンドはコンテナ内部での実行を指す）
     ```bash
     docker-compose exec app composer install
     ```
